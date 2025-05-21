@@ -1,0 +1,282 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1;
+}
+
+header {
+	background-color: #24282B;
+	padding: 30px 130px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 4px solid #1293D4;
+}
+
+header p {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0;
+}
+
+header p span {
+	color: #1293D4;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	margin-left: 40px;
+}
+
+header nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+header nav ul li a:hover, header nav ul li .azul {
+	color: #1E86D4;
+}
+
+.encabezado {
+	background: url(../assets/images/cabecera.jpg);
+	text-align: center;
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
+	background-position: center center;
+}
+
+.encabezado-textos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	min-height: 50vh;
+	text-align: center;
+}
+
+.encabezado-textos h1 {
+	font-size: 50px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.encabezado-textos p {
+	font-size: 20px;
+	width: 76%;
+	margin: 0 auto;
+	color: white;
+}
+
+.suscribete {
+	background-color: #24282B;
+	padding: 30px 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.suscribete p {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.suscribete .email {
+	padding: 8px;
+	width: 280px;
+}
+
+.suscribete .btn {
+	padding: 10px;
+	background-color: #E8491D;
+	border: none;
+	color: white;
+	cursor: pointer;
+	margin-right: 20px;
+	width: 100px;
+}
+
+/*Index*/
+
+.informacion {
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	text-align: center;
+}
+
+.tecnologias {
+	width: 360px;
+	margin: 40px 0;
+}
+
+.tecnologias img {
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.tecnologias h3 {
+	margin: 10px;
+}
+
+.tecnologias p {
+	margin: 10px 0;
+}
+
+/*Para todas las páginas excepto el index*/
+
+.principal {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 45px;
+	margin: 40px 120px;
+}
+
+.que-hacemos {
+	width: 20%;
+}
+
+.hacemos {
+	background-color: #35424A;
+	color: #ffffff;
+	padding: 30px 20px;
+}
+
+.hacemos .titulo {
+	font-weight: bold;
+}
+
+.hacemos .descripcion {
+	margin-top: 20px;
+}
+
+/*Servicios*/
+
+.servicios {
+	width: 75%;
+}
+
+.servicios h2 {
+	padding: 0 7px 10px;
+}
+
+.tipos {
+	background-color: #E6E6E6;
+	margin: 6px;
+	padding: 40px 20px;
+	border: 2px solid #CCCCCC;
+}
+
+.tipos .titulo {
+	font-weight: bold;
+}
+
+.tipos .descripcion {
+	margin: 20px 10px 20px 0;
+}
+
+/*Nosotros*/
+
+.nosotros {
+	width: 75%;
+}
+
+.nosotros h2 {
+	padding: 0 7px 10px;
+}
+
+.parrafo1, .parrafo2 {
+	margin: 15px 6px;
+}
+
+.parrafo2 {
+	background-color: #35424A;
+	padding: 15px;
+	color: #ffffff;
+}
+
+
+.imagen {
+	margin: 6px;
+}
+
+.imagen img {
+	width: 100%;
+	height: auto;
+}
+
+/*Contacto*/
+
+.contactos {
+	width: 75%;
+}
+
+.contactos h2 {
+	padding: 0 7px 10px;
+}
+
+.formulario {
+	margin: 15px 6px;
+}
+
+.formulario form {
+	display: flex;
+	flex-direction: column;
+}
+
+.formulario input {
+	margin-bottom: 10px;
+	padding: 10px 0;
+}
+
+.formulario .btn {
+	padding: 10px;
+	background-color: #E8491D;
+	border: none;
+	color: white;
+	cursor: pointer;
+	margin: 10px 5px 0 0;
+	border: 1px solid #CCCCCC;
+}
+
+.imagen-mapa {
+	margin: 8px auto;
+}
+
+.imagen-mapa img {
+	width: 100%;
+	height: auto;
+}
+
+/*Footer*/
+
+footer {
+	background-color: #1293D4;
+	padding: 42px;
+	color: #ffffff;
+	text-align: center;
+}
